@@ -1,0 +1,61 @@
+.series2
+    width: 100%
+    margin: 0 auto
+    position: relative
+    overflow: hidden
+    height: 810px
+    display: flex
+    align-items: center
+    color: #fff
+    /* .series2__inner */
+    &__inner
+        position: relative
+        z-index: 2
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+    /* .series2__item */
+    &__item
+        width: 100%
+        max-width: 400px
+        padding: 15px
+        background: rgba(39, 44, 47, 0.74)
+        border-radius: 5px
+    &__item + &__item
+        margin-top: 40px
+    /* .series2__title */
+    &__title
+        font-style: normal
+        font-weight: 300
+        font-size: 36px
+        line-height: 140%
+
+        text-align: center
+        letter-spacing: 0.04em
+        margin-bottom: 20px
+    /* .series2__bold */
+    &__bold
+        font-weight: 700
+    /* .series2__text */
+    &__text
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 140%
+        margin-bottom: 20px
+        letter-spacing: 0.04em
+        text-indent: 20px
+
+
+    /* .series2__model */
+    &__model
+        color: $color-text
+    /* .series2__img */
+    &__img
+        position: absolute
+        height: 100%
+        width: 100%
+        object-fit: cover
+        object-position: center center
+        z-index: 1

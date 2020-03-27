@@ -1,0 +1,66 @@
+
+@import "fonts"
+@import "vars"
+@import "mixin"
+
+body
+    margin: 0
+    padding: 0
+    font-size: 15px
+    color: #000000
+    line-height: 1.6
+    font-family: 'Roboto Slab', serif
+*,
+*:before,
+*:after
+    box-sizing: border-box
+
+h1, h2, h3, h4, h5, h6, p
+    margin: 0
+
+
+.container
+    width: 100%
+    max-width: 1230px
+    margin: 0 auto
+    padding: 0 15px
+
+.btn
+    display: inline-block
+    @include montserrat
+    text-decoration: none
+    font-weight: 600
+    border-radius: 3px
+    padding: 8px 45px
+    /* btn__accent */
+    &__accent
+        background-color: $color-accent
+        color: #fff
+        text-transform: uppercase
+
+    /* btn__alter-light */
+    &__alter-light
+        background-color: $color-alter-light
+        color: #000
+        text-transform: uppercase
+
+    /* btn__gray */
+    &__gray
+        background-color: $color-alter-gray
+        color: #fff
+        font-size: 15px
+    /* btn__blue */
+    &__blue
+        background-color: $color-alter
+        color: #fff
+        font-size: 14px
+@import "header"
+@import "start"
+@import "series"
+@import "catalog"
+@import "series2"
+@import "promo"
+
+
+
+@import "media"
