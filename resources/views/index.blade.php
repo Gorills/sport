@@ -335,24 +335,29 @@
             </div>
 
             <div class="promo__column promo__right">
-                <div class="promo__title">Условия доставки:</div>
-                <ol class="promo__list">
-                    <li>Перейдите в наш интернет магазин</li>
-                    <li>Добавьте товар в корзину</li>
-                    <li>Переж оформлением заказа введите <span class="promo__accent">PROMO-код</span></li>
-                    <li>Выбирите один из 3-х вохможных способов оплаты</li>
-                    <li>Подтвердите заказ</li>
-                </ol>
-                <p class="promo__text">Для того, что бы Ваш заказ был оплачен</p>
-                <ol class="promo__list">
-                    <li>Зарегистрируйтесь на нашем сайте.</li>
-                    <li>Зарегистрируйтесь на нашем сайте.</li>
-                </ol>
 
-                <p class="promo__text">Отслеживайте свой заказ по трек-коду</p>
+
+                    <div class="promo__title">Условия доставки:</div>
+                    <ol class="promo__list">
+                        <li>Перейдите в наш интернет магазин</li>
+                        <li>Добавьте товар в корзину</li>
+                        <li>Переж оформлением заказа введите <span class="promo__accent">PROMO-код</span></li>
+                        <li>Выбирите один из 3-х вохможных способов оплаты</li>
+                        <li>Подтвердите заказ</li>
+                    </ol>
+                    <p class="promo__text">Для того, что бы Ваш заказ был оплачен</p>
+                    <ol class="promo__list">
+                        <li>Зарегистрируйтесь на нашем сайте.</li>
+                        <li>Зарегистрируйтесь на нашем сайте.</li>
+                    </ol>
+
+                    <p class="promo__text">Отслеживайте свой заказ по трек-коду</p>
 
 
                 <a href="#" class="promo__btn btn btn__accent">Заказать</a>
+
+                <p class="promo__promo">НЕ ЗАБЫВАЙТЕ PROMO-КОД НА <br>
+                    <span class="promo__promo_accent">СКИДКУ 12% - mr_FANTASTIC</span></p>
 
             </div>
 
