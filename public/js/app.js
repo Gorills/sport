@@ -19346,9 +19346,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/gorills/progect/boots/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /home/gorills/progect/boots/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /home/gorills/progect/boots/resources/sass/site.sass */"./resources/sass/site.sass");
+__webpack_require__(/*! /home/gorills/Project/sport/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /home/gorills/Project/sport/resources/sass/app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! /home/gorills/Project/sport/resources/sass/site.sass */"./resources/sass/site.sass");
 
 
 /***/ })

@@ -24,17 +24,17 @@
         <div class="start__inner">
             <h1 class="start__title">БАСКЕТБОЛЬНЫЕ КРОССОВКИ</h1>
             <p class="start__subtitle">NIKE  JORDAN</p>
+            <div class="start__promo">Promo код на <span class="start__promo-accent">скидку 12%</span> - mr_FANTASTIC</div>
 
             <div class="start__btn-wrapper">
                 <a href="#" class="btn btn__accent">Каталог</a>
-                <a href="#" class="btn btn__alter-light">Каталог</a>
+
             </div>
 
-            <div class="start__promo">Promo код на <span class="start__promo-accent">скидку 12%</span> - mr_FANTASTIC</div>
 
         </div>
     </div>
-    <img class="start__img" src={{ asset('images/bg-start.png') }} alt="">
+    <img class="start__img" src={{ asset('images/bg-start1.png') }} alt="">
 </section>
 
 <section class="series">
@@ -328,12 +328,6 @@
 <div class="promo">
     <div class="container">
         <div class="promo__inner">
-            <div class="promo__column promo__left">
-                <p class="promo__column-left">Покупайте баскетбольные кроссовки в нашей компании и экономьте до 12% бюджета! </p>
-                <p class="promo__column-left">Оформляя заказ и не забывайте указывать наш специальный PROMO-код, который дает скидку 12% на баскетбольную обувь </p>
-
-            </div>
-
             <div class="promo__column promo__right">
 
 
