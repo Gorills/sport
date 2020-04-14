@@ -1,0 +1,86 @@
+.footer
+    width: 100%
+    margin: 0 auto
+    background-color: #333
+    color: #fff
+    padding: 20px 0
+    /* .footer__inner */
+    &__inner
+        display: flex
+        justify-content: space-between
+        @media only screen and (max-width : 827px)
+            flex-direction: column
+    /* .footer__logo */
+    &__logo
+        color: #fff
+        @media only screen and (max-width : 827px)
+
+            text-align: center
+    /* .header__logo-title */
+    &__logo-title
+        @include dm
+        font-weight: 700
+        font-size: 24px
+    /* .header__logo-subtitle */
+    &__logo-subtitle
+        @include roboto
+        font-weight: 300
+        font-size: 12px
+
+    /* .footer__nav-wrapper */
+    &__nav-wrapper
+    /* .footer__nav */
+    &__nav
+        text-align: center
+        margin-bottom: 35px
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+        @media only screen and (max-width : 723px)
+            flex-direction: column
+
+    /* .footer__link */
+    &__link
+        font-family: Roboto Slab
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 24px
+        letter-spacing: 0.07em
+        color: #FFFFFF
+        text-transform: uppercase
+        text-decoration: none
+    &__link
+        @media only screen and (max-width : 723px)
+            margin-top: 20px
+    /* .footer__options-wrapper */
+    &__options-wrapper
+        display: flex
+        @media only screen and (max-width : 395px)
+            flex-direction: column
+            text-align: center
+    /* .footer__categories */
+    &__categories
+        margin-right: 20px
+        @media only screen and (max-width : 395px)
+            margin-right: 0
+            margin-bottom: 20px
+    /* .footer__options */
+    &__options
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        justify-content: space-between
+        grid-gap: 20px
+        text-align: center
+        @media only screen and (max-width : 593px)
+            grid-template-columns: repeat(2, 1fr)
+
+    /* .footer__options-link */
+    &__options-link
+        font-size: 14px
+        line-height: 18px
+        letter-spacing: 0.05em
+        color: #ffffff
+        text-decoration: none
+

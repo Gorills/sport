@@ -9,26 +9,43 @@
         display: grid
         grid-template-columns: repeat(4, 1fr)
         grid-gap: 20px
+        @media only screen and (max-width : 1225px)
+            grid-template-columns: repeat(3, 1fr)
+        /* Medium Devices, Desktops */
+        @media only screen and (max-width : 992px)
+            grid-template-columns: repeat(2, 1fr)
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 622px)
+            grid-template-columns: repeat(1, 1fr)
+            text-align: center
+
     /* .catalog__item */
     &__item
         line-height: 24px
         text-decoration: none
         display: inline-block
         color: #000000
+
+    /* catalog__wrapper */
+    &__wrapper
+        //height: 100%
+        min-height: 500px
+        @media only screen and (max-width : 622px)
+            min-height: 100%
     /* catalog__img-wraper */
     &__img-wraper
-        width: 100%
-        max-width: 300px
-        height: 100%
-        max-height: 300px
+        width: 285px
+        height: 285px
         display: flex
         justify-content: center
         align-items: center
-
+        @media only screen and (max-width : 622px)
+            margin: 0 auto
     /* catalog__img */
 
     &__img
         width: 100%
+        object-fit: cover
     /* .catalog__item-title */
     &__item-title
         font-style: normal
@@ -41,7 +58,7 @@
         margin-bottom: 30px
     /* .catalog__item-old */
     &__item-old
-
+        text-decoration: line-through
     /* .catalog__item-new */
     &__item-new
         font-weight: 700
@@ -54,3 +71,4 @@
         margin-top: 55px
         width: 100%
         text-align: center
+

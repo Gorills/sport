@@ -56,7 +56,13 @@
         </div>
     </div>
 </header>
-
+<div class="toggle-menu" id="menu">
+    <div class="toggle-section">
+        <a href="#" class="menu-btn">
+            <span></span>
+        </a>
+    </div>
+</div>
 
 
 
@@ -64,6 +70,63 @@
 
 
 
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__logo">
+                <p class="footer__logo-title">Fantastic Sport</p>
+                <p class="footer__logo-subtitle">champions uniform</p>
+            </div>
+            <div class="footer__nav-wrapper">
+
+                <div class="footer__nav">
+                    <a class="footer__link" href="#">Каталог</a>
+                    <a class="footer__link" href="#">Акции</a>
+                    <a class="footer__link" href="#">Магазин</a>
+                    <a class="footer__link" href="#">Оплата</a>
+                    <a class="footer__link" href="# ">Толстовки Джордан</a>
+                </div>
+                <div class="footer__options-wrapper">
+                    <p class="footer__categories">Дополнительные категории:</p>
+
+                    <div class="footer__options">
+                        <a href="#" class="footer__options-link">ВМХ</a>
+                        <a href="#" class="footer__options-link">Трюковые самокаты</a>
+                        <a href="#" class="footer__options-link">Аксессуары</a>
+                        <a href="#" class="footer__options-link">Носки</a>
+                        <a href="#" class="footer__options-link">Сумки/рюкзаки</a>
+                        <a href="#" class="footer__options-link">Брюки</a>
+                        <a href="#" class="footer__options-link">Брюки</a>
+                        <a href="#" class="footer__options-link">Мячи</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    $(".menu-btn").click(function(e) {
+        e.preventDefault();
+        $(this).toggleClass('menu-btn_active');
+        $(".header").toggleClass('header_active');
+
+    })
+    $(".header__link").click(function(e) {
+        // e.preventDefault();
+        $(".menu-btn").removeClass("menu-btn_active");
+        $(".header").removeClass("header_active");
+        $(".header__link").toggleClass('header_active');
+    })
+</script>
 
 <style src="{{ URL::asset('js/app.js') }}"></style>
 </body>

@@ -4,10 +4,10 @@
     position: relative
     display: flex
     align-items: center
-
     overflow: hidden
     height: 830px
-
+    @media only screen and (max-width : 590px)
+        height: 100%
     /* .promo__inner */
     &__inner
         position: relative
@@ -60,11 +60,17 @@
 
     /* .promo__text */
     &__text
-
+    /* promo__btn-wrapper */
+    &__btn-wrapper
+        width: 100%
+        @media only screen and (max-width : 590px)
+            text-align: center
     /* promo__btn */
     &__btn
         margin-top: 40px
         margin-left: 20px
+
+
     /* promo__promo */
     &__promo
         margin-top: 40px
